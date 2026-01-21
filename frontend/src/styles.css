@@ -1,0 +1,81 @@
+.page {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 18px;
+}
+
+.header h2 { margin: 0; }
+.sub { margin-top: 6px; color: #666; }
+
+.chat {
+  margin-top: 14px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 12px;
+  height: 460px;
+  overflow-y: auto;
+  background: #fafafa;
+}
+
+.bubbleRow {
+  display: flex;
+  margin: 10px 0;
+}
+
+.bubbleRow.user { justify-content: flex-end; }
+.bubbleRow.bot { justify-content: flex-start; }
+
+.bubble {
+  max-width: 75%;
+  border: 1px solid #e5e5e5;
+  background: white;
+  border-radius: 12px;
+  padding: 10px 12px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+
+.role {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 6px;
+}
+
+.text { white-space: pre-wrap; }
+
+.sources {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #666;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.sourceTag {
+  border: 1px solid #ddd;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: #f5f5f5;
+}
+
+.composer {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.composer input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.composer button {
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
